@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   <style>
+    .divs {
+        display: flex;
+        }
+    .divs > div {
+        flex: 1; /*grow*/
+        }
+    .div1{
+        background: red;
+    }
+    .div2{
+        background: green;
+    }
+    .div3{
+        background: blue;
+    }
+    </style>
+</head>
+<body>
+      
+        <div class="container jumbotron">
+            <img src="image.jpg" class="img-fluid rounded-circle" alt="Cinque Terre">                  
+                <div class="row">
+                    <div class="col-10 col-sm-8 col-md-6 col-lg-4" style="background-color:yellow;">Div 1</div>
+                    <div class="col-2 col-sm-4 col-md-6 col-lg-8" style="background-color:pink;">Div 2</div>                      
+                </div>      
+                <img src="image.jpg" class="img-fluid">         
+                <button class="btn btn-primary btn-sm">Submit</button>
+        </div>
+              
+        <div class="divs">
+                <div class="div1">Left div</div>
+                <div class="div2">Middle div</div>  
+                <div class="div3">Right div</div>                
+              </div>
+</body>
+</html>
+
